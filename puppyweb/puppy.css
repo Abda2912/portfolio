@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(128, 226, 43);
+}
+h1{
+    background-color: aquamarine;
+    color: bisque;
+    width: 53% ;
+}
+section {
+    background-color: blue;
+    color: red;
+    font-size: 24px;
+
+}
+input{
+    background-color: blueviolet;
+    color: aqua;
+    width: 37%;
+}
+button{
+    background-color: brown;
+    color: rgb(9, 231, 28);
+    width: 45%;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+.baba{
+    background-color:black;
+    color:white;
+    font-size: 15px;
+}
+#war:hover{
+    background-color: rgb(255, 0, 144);
+}
+
+.war:hover{
+    background-color: yellow;
+}
