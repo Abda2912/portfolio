@@ -124,7 +124,7 @@
   color: #226a08;
 }
 .and{
-  color: white;
+  color: rgb(18, 177, 98);
 }
 .header-text::before{
   filter: blur(1rem);
