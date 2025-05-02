@@ -20,7 +20,7 @@
         <ul class="sun">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -48,45 +48,38 @@
             Currently, I am honing my skills in both front-end and back-end technologies, and I'm always excited to
             learn new tools and frameworks to bring ideas to life!</p>
 
-          <div class="tab-titles">
-            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-            <p class="tab-links" onclick="opentab('education')">Education</p>
-          </div>
-
-          <div class="tab-contents active-tab" id="skills">
-            <ul>
-              <li><span>Problem Solver</span><br>Python Problem Solver</li>
-              <li><span>Web Development</span><br>Web App Development</li>
-              <li><span>App Development</span><br>Building Android/iOS apps</li>
-            </ul>
-          </div>
-
-          <div class="tab-contents" id="education">
-            <ul>
-              <li><span>Bachelor's Degree</span><br>Software Degree</li>
-              <li><span>Self-taught</span><br>Web & App Development</li>
-              <li><span>Certifications</span><br>Various online platforms</li>
-            </ul>
-          </div>
+          <!-- <div class="tab-titles">  -->
+          <p class="tab-links">Education</p>
+          <!-- </div>  -->
+          <!-- <div class="tab-contents" id="education"> -->
+          <ul>
+            <li><span>Bachelor's Degree</span><br>Software Degree</li>
+            <li><span>Self-taught</span><br>Web & App Development</li>
+            <li><span>Certifications</span><br>Various online platforms</li>
+          </ul>
         </div>
       </div>
     </div>
   </div>
+  </div>
   <!-- skills -->
-  <div id="Skills">
+  <div id="skills">
     <div class="container">
       <h1 class="sub-title">skills</h1>
       <div class="skills-list">
         <div>
+          <i class="fa-brands fa-python"></i>
           <h2>Problem solver</h2>
-          <p>Skilled in solving complex problems using Python with efficient and scalable solutions</p>
+          <p>Skilled in solving problems using Python with efficient and scalable solutions</p>
         </div>
         <div>
+          <i class="fa-solid fa-code"></i>
           <h2>Web Development</h2>
           <p> Experienced in developing responsive and dynamic web applications using HTML, CSS, JavaScript, and
-            frameworks like React, Node.js, and Django.</p>
+            frameworks like React, Node.js</p>
         </div>
         <div>
+          <i class="fa-solid fa-laptop-code"></i>
           <h2>App Development</h2>
           <p>Proficient in building functional and user-friendly Android and iOS apps.</p>
         </div>
@@ -119,28 +112,10 @@
         </div>
       </div>
     </div>
-
     <div class="copyright">
       <p>Copyright © Abdurahman</p>
     </div>
   </div>
-
-  <!-- JavaScript (Put scripts at end for better performance) -->
-  <script>
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname) {
-      for (tablink of tablinks) {
-        tablink.classList.remove("active-link");
-      }
-      for (tabcontent of tabcontents) {
-        tabcontent.classList.remove("active-tab");
-      }
-      event.currentTarget.classList.add("active-link");
-      document.getElementById(tabname).classList.add("active-tab");
-    }
-  </script>
 
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxQ4IvwwEvtfFLnANqKi9AXZaEiVMWLWILdrKeIOanVL17oPTFmdsCIT1MeJEViZbSfsg/exec';
@@ -156,6 +131,7 @@
         .catch(error => console.error('Error!', error.message));
     });
   </script>
+
 
 </body>
 
