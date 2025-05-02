@@ -208,6 +208,32 @@
 .tab-contents.active-tab{
   display: block;
 }
+/* skills */
+#skills{
+  padding: 30px 0;
+}
+.skills-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px));
+  grid-gap: 40px;
+  margin-top: 50px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* content */
 .contact-left{
   flex: basis 35% ;
