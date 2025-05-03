@@ -164,6 +164,9 @@
 .about-col-2 p{
   line-height: 20px;
 }
+.about-col-2 ul span{
+  font-size: 17px;
+}
 .sub-title{
   font-size: 60px;
   font-weight: 600;
